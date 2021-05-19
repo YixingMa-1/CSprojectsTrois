@@ -1,2 +1,2 @@
 # CSprojects
-All the projects I did in university
+computer science projects in UT Austin
