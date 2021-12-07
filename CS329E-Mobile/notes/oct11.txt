@@ -1,0 +1,32 @@
+terminal:
+ends with / means its a filecd IceCreamShop.xcodeproj/
+
+
+command:
+pod init
+do not open with text edit, open it with xcode
+open -a Xcode Podfile
+
+
+# Pods for IceCreamShop
+pod 'Alamofire', '4.4.0'
+
+ends
+
+pod install
+
+pickFlavorVC: import Alamofire
+loadFlavors:
+
+
+weak self
+
+guard let strongSelf = self else {return}
+
+garbage collection: ios don't use garbage collection
+use automatic reference counting(ARC)
+
+guard let username = usernameField.text else {return}
+guard let email = emailField.text else {return}
+guard let passward = pwdField.text else {return}
+

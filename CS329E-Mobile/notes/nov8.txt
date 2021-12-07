@@ -1,0 +1,38 @@
+hw9: block location: 10, 5
+device doesn't attribute
+1/9 or 1/19
+nice integer, so when it hits the edge, it should fit perfectly,
+
+classdemo -> build phases -> link binary with libraries ->  + name (mapkit.framework) 
+
+
+mainstoryboard:
+1. toolbar in the bottom
+2. map kit view
+3. pin them both, setting constraints, not contraints to margins
+4. bar button 
+5. view contorller. swift import mapkit
+6. drag and drop mapview
+7. zoom drag and drop
+8. type 
+9. app delegate: import Corelocation
+var locationManager: CLLocationManager?
+locationManager = CLLocationManager()
+locationManager?.reqiestWhenInUseAuthorization()
+10. infoplist:
+info prpertylist, + 
+privacy- location when in use usage description: value: this infor
+11. add the protocal MKMapViewDelegate
+mapView.delegate = self
+mapView.showsUserlocaiton = true
+12. zoomin
+
+simulator - > features:
+location
+
+13. type 
+
+
+
+
+

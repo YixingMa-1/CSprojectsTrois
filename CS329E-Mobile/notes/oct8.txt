@@ -1,0 +1,33 @@
+mainstory board main ui tableview
+change this view from a default UI view into a table view
+
+
+protocal ButtonSetter {
+    func setButton(newString: String)
+}
+_ as the label, you don't need to identify the name of the variable. 
+
+
+Property Observers: trigger when the value of a variable(or property) changes
+
+var x = "Inintial value" {
+    willSet {
+        print("willSet: x = \(x)")
+    }
+    didSet {
+        print("didSet: x = \(x)")
+    }
+}
+
+
+// generic method types
+func exchange<T>(a:inout T, b:inout T) {
+    let temp = 1
+    a = b
+    b = temp
+}
+
+var x = 5.3
+var y = 52.7
+exchange(a:&x, b:&y)
+

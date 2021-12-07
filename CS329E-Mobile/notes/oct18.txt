@@ -1,0 +1,49 @@
+stackview:
+adding two labels: shift selecting.
+editor embed in stackview  right side horizontal
+
+
+select stackview edit copy or command c 
+
+shift select two groups of labels.
+
+short cut right down corner stack view
+
+pin this box  by the constraings 
+
+stackview distribution fill equally
+
+picture navigation:
+
+1. choose the view, chagne the background color to black.
+2. library stack view 
+3. constraints 0 
+4. label: title of each picture drag into the stackview
+5. change label's font color - center interger - bold
+6. image view - below the label
+7. button: button under image views
+8. switch to assets file 
+9. slect all the images drag and drop in the asset file. 
+10. imageview - in the image attribute select a image
+11. content mode, aspect fit. 
+12. label - size inspector : content hugging priority (who get the extra space)
+13. content compression: image lower the vertical priority  number doesn't matter as long as is lower than the other one . 
+14. add two buttons under the button  -> stack view, to horizontal -> alignment to center -> distribution: fill equally
+15. change buttons' background colors
+16. spacing: 0 to 32
+17. size inspector: layout margins: fixed
+18. button background color to black
+18. label image 0 outlet 
+19. image view  outlet 
+20. two variables: let imageCount = 6, // number of images, var current = 0 // image currently displayed
+21. function show image 
+22. button : on previous button pressed,...,...
+23. if the image name doesn't have a pattern, set an array contains all the names 
+
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+table view
+constraints: 4 directions 0
+
+identifiler: textCell
+outlet tableView
+
+let textCellIdentifer = "TextCell"
+
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+
+}
+
+
+let choice = [
+    "Simple UIAlertViewController",
+    "UIAlertViewController",
+    
+
+]

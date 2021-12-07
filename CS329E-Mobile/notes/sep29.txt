@@ -1,0 +1,95 @@
+let optStr: String? = "An optional string"
+print('optStr =', optStr)
+print('optStrUnwrapped = ', optStr!)
+
+let newStr: String = optStr
+print('newStr =', newStr)
+
+
+let optStr2: String! = "An optional string"
+print('optStr2 =', optStr2)
+print('optStr2Unwrapped = ', optStr2!)
+
+let newStr2: String = optStr2
+print('newStr2 =', newStr2)
+
+var myArray = ["Beam","me","up", "Scotty"]
+print(myArray.sorted())
+
+var myArray = [[1,2,3],[2,4,8],[9,1,7], [6,1,4]]
+print(myArray.sorted())
+
+func myCompare(x:[Int],y:[Int]) -> Bool {
+    return x[2] < y[2]
+}
+
+print(myArray.sorted(by: myCompare))
+
+var a = 5
+var b = 7
+print(a+b)
+
+
+print(myArray.sorted(ny: {
+    (x:[Int],y:[Int]) -> Bool in 
+    return x[0]< y[0])
+}))
+
+print(myArray.sorted(by:{
+    $0[0] > $1[0]
+}))
+
+// variadic parameters
+// - represents zero or more values of a specified type
+// - insert three periods after the parameter's type name
+
+func listSum(values:[Int]) -> Int {
+    var total = 0
+    for number in values {
+        total += number
+    }
+    return total
+}
+
+print(listSum([3,5,7,9,5,32,45]))
+
+func listSum(values:Int...) -> Int {
+    var total = 0
+    for number in values {
+        total += number
+    }
+    return total
+}
+
+print(listSum(values: 3,5,7,9,5,32,45))
+
+// In-out parameters - pass the address of the variable that you want to change
+func exchange(a:Int, b:Int) { 
+    let temp = a
+    a = b
+    b = temp
+}
+
+var x = 5
+var y = 3
+
+print("x = \(x)") 
+print("y = \(y))
+exchange(a:&x, b:&y)
+
+// two kinds of types in Swift
+// - named: basic: Int, Float, Strings, enums, calsses, protocols, structures
+// - compound: tuples, functions
+
+// A function type includes funcitons, methods, closures
+
+func funcNmae(<parameter -type> -> <return-type> {
+
+}
+function type: Int -> String
+func myFunc(Int) -> String
+
+func mySpecialFunction(x:Int, y:String, z:(Float, Int) -> (Int, String)) {
+    dfasdfadfads
+}
+

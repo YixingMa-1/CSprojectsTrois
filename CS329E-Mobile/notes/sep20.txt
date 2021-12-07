@@ -1,0 +1,10 @@
+1986: Steve Jobs resigned from Apple
+NeXT
+OS: "NeXTstep" -> world wide web 
+hardware: NeXT computer -> world first web server
+OpenStep: open, not proprietary: is an object orented API specification for NeXT 
+foundation is an objective-c framework under OpenSTEP. it contains low-level object definitions such as NSString, NSNumber, etc. 
+Appkit: appkit is a collection of classes within openstep, such as nsapplication, nswindow, nsview, nsresponder, etc. 
+cocoa is apple's native object-oriented api for os x.
+for ios, tvos, and watch os, a similar api exists called cocoa touch. 
+core data framework provided by apple that enables data to be organized by the relational entity attribute model

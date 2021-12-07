@@ -1,0 +1,8 @@
+
+1.collection view , fill the whole screen 
+2.prototype cell
+3.outlet to the ViewController
+4.newfile cocoa, my collectionview cell
+5.drag and drop a label mylabel
+
+

@@ -1,0 +1,24 @@
+let defaults = UserDefaults.standard
+
+core dadta is like a database, but not a database
+
+
+classdemo9.xcdatamodeld
+
+add entity: person
+attribute:
+name: String
+age: interger 32
+
+
+add another entity: manager
+attribute: 
+name: String
+relaitonship: supervisor, destination: person
+
+
+ViewController
+func demoCoreData() {
+    clearCoreData()
+    storePerson(name: "Justin, TImberlake")
+}

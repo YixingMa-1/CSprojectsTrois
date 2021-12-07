@@ -1,0 +1,25 @@
+segmented 
+label in the 
+created a segue from the view controlelr to the toehr two view cotrollers
+
+
+case 0:
+perform Segue(withidentifer:"VC1", sender: self)
+case 1:
+performSegue(withIdentifier:"VC2", sender: self)
+
+going from viewcontroller to viewcontroller. not button to viewcontroller
+
+popover is associated more with ipad than iphone. 
+
+view controller 
+change the class to popover tableViewController
+
+
+create a popover tableView controller
+change the size to 300 * 200
+
+sugue: button to the popover: presnt as apopover : popoversegueIdentifier
+
+make sure the var segueid is the same 
+

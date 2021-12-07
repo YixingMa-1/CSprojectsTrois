@@ -1,0 +1,17 @@
+project presentation: 
+day 1: introduction of your app
+
+metadata:
+
+go to info.plist 
+Privacy - Camera Usage Description: value: Warning: this app may present images that offend you.
+
+
+camera button selected:
+
+
+swift ui:
+interface: swift ui
+
+editor: canvas
+

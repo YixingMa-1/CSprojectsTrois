@@ -1,0 +1,52 @@
+uitableviewdelegate
+                          - >   protocols
+uitableviewdatasource
+1. tableview
+2. constraints set to 0 to the safe area
+
+prototypes cells: normally just have 1
+property -> basic style 
+identifier: specify TexCell(remember it)
+
+
+viewcontroller:
+tableview control and drag to view controller
+
+tableviewcode:
+
+add protocal:
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource 
+two functions called this: parameters are different
+func tableView {
+    return teams.count
+
+
+}
+func tableView {
+    let cell = tableView.dequeueReusableCell(withidentifier: textCellIdentifier, for: indexPath)
+    let row = indexPath.row
+    cell.textLabel?.text = teams[row]
+    return cell
+}
+
+
+import UIKit
+
+public let teams = [
+    "Dodgers",.....
+]
+
+public let cities = [
+
+]
+
+
+class ViewController {
+    let textCellIdentifier = "TextCell"
+}
+
+
+TextCell, control drag to the second view controller
+
+create a new file, cocotouchclass, teamviewcontroller, uiview controller
+

@@ -1,0 +1,10 @@
+info.plist
+1. imageview 
+2. toolbar at the bottom
+3. flexibel space bar button
+4. imageview outlet 
+5. library and camera functions 
+6. add two delegates into class view controller, uiimagepickercontrollerdelegate, uinavigationcontrollerdelegate
+7. create a picker, let picker = ...()
+8. viewdidload(){
+picker.delegate = self}

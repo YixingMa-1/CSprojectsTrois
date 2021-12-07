@@ -1,0 +1,73 @@
+Basic Data Types
+ 
+Int, Float, Double, String, Bool
+Integer Data Types
+Int, Int8, Int16, Int32, Int64
+EX: var x:Int16 = 128 fits, but var x:Int8 = 128 does not fit.
+Useful for constraining size, but Int is more common
+Uint, UInt8, Uint 16 etc….
+Unassigned Integers
+EX: var y:UInt8 = 255
+No way to represent negative numbers, which is why there is more room
+Var minIntValue = Int8.min -> -128
+Var minIntValue = int8.max -> 127
+Var minUIntValue = Uint8.min -> 0
+Var maxUIntValue = Uint8.max -> 255
+ 
+Floating Point - 32 bits
+Double = 64 Bits
+Boolean -> true false
+ 
+ 
+Two Kinds of Data Types
+ 
+Named Types
+Types that can be given a particular name when it's defined
+Includes classes, structures, enumerations, and protocols
+EX: Int (a swift-defined named type)
+Compound Types
+Tuples: comma-seperated lists of zero or more types enclosed in parentheses
+EX: var origin(Int, Int) = (10,20)
+EX: var president:(String, (String, String)) = ("Kennedy, ("John", "Fitzgerald"))
+ 
+Defining Custom Types
+ 
+Typealias Point = (Int,Int)
+Var newPoint: Point = (30,20)
+ 
+Variables
+Use "Var" for mutable variables
+EX: Var varName:String = "my String"
+OR
+Var varName = "my String"
+Use "let" to establish immutable variable
+EX: let yourName:String = "Martha"
+yourName = "Susie" <- this gives an error
+Classes
+class Person{
+ 
+Let firstName: String
+Let lastName: String
+ 
+Init(first: String, last:String) {
+firstName = first
+lastName = last
+ 
+Let actor = Person(first:"Jimmy", last:"Stewart")
+-> we are not able to change this variable, so we do this instead
+Var actor =  Person(first:"Jimmy", last:"Stewart")
+-> and we can overwrite the pointer
+Actor =  Person(first:"Clint", last:"Eastwood")
+ 
+Strings and variables
+Basically what an f string is for Swift is as such
+Print("Actor first name is /(actor.firstName)")
+ 
+Class Methods
+Instance Method - Assumes we have on object created
+Func description() -> String {
+Return "First Name: \(firstName), Last Name: \(lastName)"
+Static Method - A general method that doesn't require an instance of the class
+Status func printHello() {
+Print("Hello")
+Person.printHello()

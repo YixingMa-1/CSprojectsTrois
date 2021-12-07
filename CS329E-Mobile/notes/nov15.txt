@@ -1,0 +1,23 @@
+swift ui:
+some view: we don't know what kind of view will it return
+ .font(.title)
+object oriented programming
+
+stacks:
+1) hstack: horizontal stack 
+2) vstack: vertical stack
+3) zstack
+
+embeded in vstack
+
+views: 
+
+
+groups:
+
+
+create a swift ui view file 
+Detail view: 
+embeded a navigation view around vstack
+inside the vstack, put navigationlink: detination: detailView(), 
+

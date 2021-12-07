@@ -1,0 +1,17 @@
+core motion
+
+observe and respond to the motion and orientaiton of an ios device, 
+
+to tell a phone is moving in space 
+gps 
+you cannot test this on a simulator, have to try it on a real phone
+
+
+coordinate system
+
+origin of frame and bound is located in the top left corner 
+
+but the origin of coordinate system is different, showed in the slides
+
+euler angles: to detect how the phone is rotating 
+

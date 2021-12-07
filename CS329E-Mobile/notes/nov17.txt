@@ -1,0 +1,8 @@
+span is the degree
+struct is a lot like class
+stack: 
+list: equivalent as a table view 
+group: 
+preview has nothing to do with the actual app 
+
+no need to use constraints for swift ui 

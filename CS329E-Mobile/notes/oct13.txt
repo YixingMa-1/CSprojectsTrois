@@ -1,0 +1,10 @@
+add firebase sdk; remember to copy and paste
+guard:
+
+
+signing & capabilities: key chain groups: utcs.ClassDemo7
+
+auth.auth().addstatedidchangelistener():
+once you logged in, trigger a segue
+
+user defaults: to store simple key/value pairs 

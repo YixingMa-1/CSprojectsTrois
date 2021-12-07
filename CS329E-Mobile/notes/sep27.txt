@@ -1,0 +1,88 @@
+func addThree(val: Int) -> Int {
+    if val has no value {
+        
+    } else{
+        return val + 3
+    }
+}
+
+// optionals -  a way to allow a value type to have no value.
+// an optional represents two possibilities:
+// - the variable has a value, and you can "unwrap" the optional to access that value
+// - the variable has no value at all. 
+
+@IBAction func buttonPressed(_ sender: Any) {
+    let name = namefield.txt!
+    let message = name + "pressed the button"
+    statusLabel.text = message
+}
+
+
+var value:Int? = 5 (might not have a value)
+if value != nil {
+    print(value)
+} else {
+    print("hello")
+}
+// wrapper object
+// force unwrap operator !
+let tenTimes = 10 * value!
+print(tenTimes)
+
+you cannot unwrap a nil
+
+if value != nil {
+    let tenTiimes = 10 * value! 
+    print(tenTiimes)
+} else{
+    print("value not defined")
+}
+
+// optional binding - "if let"
+if let name = optional {
+    dfdfdfdd
+}
+
+var o1:String?
+var o2:String?
+var o3:Int?
+
+if let x1 = o1, x2 = o2, x3 = o3 {
+
+}
+
+var tens:Int? = 5
+var ones:Int? = 3
+var twoDigitNum:Int
+
+if let t = tens, let u = ones {
+    twoDigitNum = 10 * t! + u!
+    print(twoDigitNum)
+} else {
+    print("etiher tens or ones not defined")
+}
+
+twoDigitNum = 10 * tens! + ones!
+print(twoDigitNum)
+
+
+let x:Int? = nil
+var result: Int
+
+if x != nil {
+    result = x!
+} else {
+    result = 0
+}
+print("The result is: \(result))
+
+// use a ternary operator
+
+var result2: Int
+result2 = x != nil ? x! :0
+print("result2 is: \(result))
+
+// use nil coalescing
+var result3:Int
+let result3  = x ?? 0
+print("result 3 is \(result3))
