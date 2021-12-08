@@ -1,0 +1,13 @@
+3. classification:
+while manual classification often suffices for small and simple data sets with only a few attributes, larger and more complex data sets require an automated solution.
+
+3.1 Basic Concepts:
+
+each such instance is characterized by the tuple(e,y), where x is the set of attribute values that describe the instance and y is the class label of the instance.
+the attribute set x can contain attributes of any type, while the class label y must be categorical.
+
+a classification model serves two important roles in data mining. 
+1. it is used as a predictive model to classify previously unlabeled instances. 
+2. it serves as a descriptive model to identify the characterisitcs that distinguish instances from different classes. 
+
+3.2 General Framework for Classification:

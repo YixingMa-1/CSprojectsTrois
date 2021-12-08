@@ -1,0 +1,33 @@
+data mining: statistics, AI, big data
+data science, data analytics 
+numerical linear algebra, applied statistics
+
+data driven probelm solivng lifecycle:
+1) get data
+2) exploratory analysis and visulization
+3) data cleaning
+4) rescaling 
+5) training / test split
+6) model building
+7) model testing
+8) polishing and presenting the results
+
+8 things that data analysts do:
+- text analytics: 
+dervies high-quality information from text
+- regression:
+makes forcasts by estimating the relationship between values 
+- recommenders:
+predicts what someone will be interested in 
+- clusteirng:
+separates similar data points into intuitive groups
+- anomaly detection :
+identifies and predicts rare or unusual data points
+- multiclass classification:
+ansers complex questions with multiple possible answers
+- two-class classification:
+answers simple two-choice questions
+- image classificaiton:
+classifies images with popular networks 
+
+

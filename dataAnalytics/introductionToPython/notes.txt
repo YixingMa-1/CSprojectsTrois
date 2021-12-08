@@ -1,0 +1,96 @@
+Introduction to data mining: 1 - 2.1
+data mining blends traditional data analysis methods with sophisticated algorithms for processing this abundance of data. 
+1.1 what is data mining
+the process of automatically discovering useful info in large data repositories. 
+
+data mining and knowledge discovery in databases:
+data mining is an intergral part of knowledge discovery in databases (KDD)
+
+input data => data preprocessing
+(feature selection,
+dimensionality reduction,
+normalization,
+data subsetting)
+=> data mining => postprocessing
+(filtering patterns,
+visualization,
+pattern interpretation)
+=> information
+
+1.2 motivating challenges 
+specific challenges that motivated the development of data mining
+- scalability
+- high dimensionality
+- heterogeneous and complex data
+- data ownership and distribution 
+- non-traditional analysis 
+
+1.3 the origins of data mining 
+staticstics, data mining, ai, machine learning, pattern recognition
+
+1.4 data mining tasks
+- predictive tasks: 
+the objective of these tasks is to predict the value of a paricular attribute based on the values of other attributes
+
+descriptive tasks: 
+descriptive data mining tasks are often exploratory in nature and frequently require posprocessing techniques to validate and explain the result
+
+predictive modeling: 
+refers to the tasks of building a model for the target variable as a function of the explanatory variables
+classification, used for discrete target variables
+regression, used for continuous target variables
+
+association analysis:
+used to discover patterns that describe strongly association featurein the data 
+
+cluster analysis: find groups of closely related observations so that observations that belong to the same cluster are more similar to each other than observations that belong to other clusters. 
+
+anomaly detection: task of identifying observations whose characteristics are significantly different from the rest of the data. 
+
+1.5 scope and organization of the book
+
+2 data
+
+the type of data: 
+quantitative 
+qualitative
+
+the quality of the data:
+data quality issues that often need to be addressed include the presence of noise and outliers; missing, inconsistent, or duplicate data; and data that is biased or, unrepresentative of the phenomenon or population that the data is supposed to describe. 
+
+preprocessing steps to make the data more suitable for data mining: 
+the raw data must be processed in order to make it suitable for analysis. 
+
+analyzing data in terms of its relationships: 
+
+2.1 types of data
+
+a data set can often be viewed as a collection of data objects. 
+other names for a data object are record, point, vector, pattern, event, case, sample, instance, observation, entity, case, sample, instance, observation, entity
+
+attribute: an attribute is a property or characteristic of an object that can vary, either from one object to another or from one time to another. 
+
+measurement scale: a rule (function) that associates a numerical or symbolic value with an attribute of an object. 
+
+categorical:
+- nominal 
+- ordinal 
+numerical:
+- interval
+- ratio
+
+python module tutorial:
+https://docs.python.org/3/tutorial/modules.html
+A module is a file containing Python definitions and statements.  The file name is the module name with the suffix .py appended.
+
+indexing and selecting data:
+https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html
+
+pandas visualization with matplotlib:
+https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html
+
+matplotlib histogram documentation:
+https://matplotlib.org/3.3.1/api/_as_gen/matplotlib.pyplot.hist.html
+
+
+
