@@ -1,0 +1,67 @@
+In Java, we use packages to organize and manage our Java files:
+
+If you are used to the concept of namespaces, packages serve essentially the same purpose in Java.
+Packages are not unlike the traditional folders that you use every day on your computer for organizing your files.
+By nesting packages and files, we can create a hierarchy that allows us to identify specific files and avoid naming conflicts.
+The package keyword will be located at the top of a Java file, typically on the first line of the file, before the imports and class name. For example:
+
+package project.src.api
+
+Inheritance
+Inheritance is one class acquiring properties and methods from another class. Here are some key points you should remember about inheritance:
+
+We want to go from general to specific. The parent or superclass is the most general and the child or subclass is the more specific.
+By extending the superclass you are stating that the subclass is of the superclass type. When we're not sure if a subclass is inheriting from a parent class, we can use the “is a” test (e.g. a car is a vehicle).
+The relationship between superclass and subclasses is only one way. The subclasses need to know about the superclass, but the superclass should never know anything about its subclasses.
+The Object Superclass
+Every class inherits from the superclass Object. Because all objects inherit from the Object class, there are some methods that all objects have, no matter what types they are. For example, all objects have:
+
+clone(), so that we can clone or make a copy of any object.
+equals(), which we can use to determine if two objects are the same.
+hashCode(), which provides a unique hash code for each object. This is something we'll make use of later on when we need to store and retrieve objects in specific data sets.
+toString(), which we can use to get a description of the current state of an object.
+
+An abstract class has the following key characteristics:
+
+It defines the behavior for each of the subclasses, but we cannot directly instantiate the abstract class itself.
+It allows us to create abstract methods.
+An abstract method is a method that does not contain an implementation body. Instead, it simply provides a header for the method.
+Subclasses that extend an abstract class are required to override all abstract methods and provide a specific implementation.
+
+Example: Abstract Vehicle Class
+Here's the example we looked at in the video. To ensure that we will not be able to directly instantiate Vehicle objects from this class, we define it using the abstract keyword:
+
+public abstract class Vehicle {
+    protected String start;
+    protected String stop;
+    protected String direction;
+
+    public Vehicle(String start, String stop,
+                                  String direction) {
+        this.start = start;
+        this.stop = stop;
+        this.direction = direction;
+    }
+
+    public abstract void speed();   
+
+}
+Next, we use the Extends keyword to have our Car class extend the Vehicle class:
+
+public class Car extends Vehicle {
+
+    public Car() {
+    super("Car start", "Car stop", "Car direction");
+    }
+    @Override
+    public void speed() {
+        System.out.println("55");
+    }
+}
+Thus, although we cannot directly instantiate objects from the abstract Vehicle class, we can instantiate objects from the Car class, and they will have all the behavior of a Vehicle.
+
+Packages, which are essentially like folders you can use to organize your code and identify exactly which file (or class) you are referring to.
+Inheritance, where one class acquires properties and methods from another class.
+Abstract classes, which cannot be directly instantiated themselves, but that allow us to define the behavior for each of the subclasses.
+Interfaces, which support decoupling and allow us to avoid hardcoding features in an application.
+Polymorphism, which is the ability for an object to take on many forms.
